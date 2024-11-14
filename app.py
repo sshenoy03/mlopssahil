@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the saved model
-model = joblib.load('/content/drive/MyDrive/Colab Notebooks/ML OPS/random_forest_model.joblib')
+model = joblib.load('/random_forest_model.joblib')
 
 # Title and description
 st.title("Customer Churn Prediction")
